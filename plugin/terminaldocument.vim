@@ -7,7 +7,7 @@ function! s:update_document()
     " unnamed/unsaved file being edited
     call s:set_osc6('')
   else
-    call s:set_osc6('file://' . path)
+    call s:set_osc6('file://' . hostname() . path)
   endif
 endfunction
 
