@@ -3,8 +3,8 @@ autocmd VimLeave * call s:set_osc6('')
 
 function! s:update_document()
   let path = expand('%:p')
-  if empty(path)
-    " unnamed file being edited
+  if empty(path) || !filereadable(path)
+    " unnamed/unsaved file being edited
     call s:set_osc6('')
   else
     call s:set_osc6('file://' . path)
