@@ -9,6 +9,11 @@ you're editing when running on Terminal.app on OS X El Capitan.
 If you have [pathogen.vim], the easiest way to install is to clone this
 repository into `~/.vim/bundle`.
 
+## License
+
+This code is free to use under the terms of the MIT license.
+See the [LICENSE](./LICENSE) file for details.
+
 
 [pathogen.vim]: https://github.com/tpope/vim-pathogen
 [Vim]: http://www.vim.org
