@@ -4,6 +4,8 @@ terminaldocument
 This is a [Vim] plugin that shows a proxy icon on the title bar for the file
 you're editing when running on Terminal.app on OS X El Capitan.
 
+![Example screenshot](./doc/demo.png)
+
 ## Installation
 
 If you have [pathogen.vim], the easiest way to install is to clone this
