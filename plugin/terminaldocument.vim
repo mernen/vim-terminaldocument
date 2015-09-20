@@ -1,3 +1,7 @@
+if has('gui_running')
+  finish
+endif
+
 autocmd BufEnter,BufFilePost * call s:update_document(0)
 " these events might change the nature of the file,
 " so we try to refresh its icon
