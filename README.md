@@ -6,10 +6,20 @@ you're editing when running on Terminal.app on OS X El Capitan.
 
 ![Example screenshot](./doc/demo.png)
 
+
 ## Installation
+
+### With pathogen.vim
 
 If you have [pathogen.vim], the easiest way to install is to clone this
 repository into `~/.vim/bundle`.
+
+### Manual
+
+The simplest way without depending on other plugins is to copy
+[terminaldocument.vim] (./plugin/terminaldocument.vim) (just this file) into
+the `~/.vim/plugin` directory.
+
 
 ## License
 
