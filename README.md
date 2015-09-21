@@ -11,8 +11,15 @@ you're editing when running on Terminal.app on OS X El Capitan.
 
 ### With pathogen.vim
 
-If you have [pathogen.vim], the easiest way to install is to clone this
-repository into `~/.vim/bundle`.
+The best way is to use [pathogen.vim] to handle your Vim plugins.
+
+Once you have pathogen.vim installed, you may clone this repository into
+`~/.vim/bundle`:
+
+```sh
+$ cd ~/.vim/bundle
+$ git clone https://github.com/mernen/vim-terminaldocument.git
+```
 
 ### Manual
 
