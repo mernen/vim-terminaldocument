@@ -24,7 +24,7 @@ $ git clone https://github.com/mernen/vim-terminaldocument.git
 ### Manual
 
 The simplest way without depending on other plugins is to copy
-[terminaldocument.vim] (./plugin/terminaldocument.vim) (just this file) into
+[terminaldocument.vim](./plugin/terminaldocument.vim) (just this file) into
 the `~/.vim/plugin` directory.
 
 
